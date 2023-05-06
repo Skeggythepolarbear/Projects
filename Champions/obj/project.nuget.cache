@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kXhozOfc++eODS6/YFbHlVuybyE19sDdCe9NrDw76KLQyRhQoRJIX0mlJWOE2oDXIh+y7n7ufj2vNHab5hpYWA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\japro\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Champions\\Champions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\japro\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
