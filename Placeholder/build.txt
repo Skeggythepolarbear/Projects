@@ -1,3 +1,0 @@
-displayName = mod Build
-author = Skeggy/Raccoon
-version = 0.1

@@ -1,3 +1,0 @@
-displayName = Champion
-author = Skeggy/Raccoon
-version = 0.1
