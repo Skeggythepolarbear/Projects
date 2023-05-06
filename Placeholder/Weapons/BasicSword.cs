@@ -9,16 +9,16 @@ namespace Champion.Items
 		public override void SetStaticDefaults()
 		{
 			// DisplayName.SetDefault("BasicSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("This is a basic modded sword.");
+			Tooltip.SetDefault("15 Conduit PLating and 5 Nanites are required to destroy your enemies with style.");
 		}
 
 		public override void SetDefaults()
 		{
 			Item.damage = 50;
 			Item.DamageType = DamageClass.Melee;
-			Item.width = 40;
-			Item.height = 40;
-			Item.useTime = 20;
+			Item.width = 20;
+			Item.height = 80;
+			Item.useTime = 10;
 			Item.useAnimation = 20;
 			Item.useStyle = 1;
 			Item.knockBack = 6;
@@ -31,7 +31,8 @@ namespace Champion.Items
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 10);
+			recipe.AddIngredient(ItemID.MartianConduitPlating, 15);
+			recipe.AddIngredient(ItemID.Nanites, 5);
 			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
 		}
