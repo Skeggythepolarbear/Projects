@@ -1,6 +1,9 @@
 This for now will just be a terraria mods and we will try to figure out how certain actions, models and weapon behavioury can be changed through code interactions. :D
 
 1 Added Sword
+    I. 250 meele damage
+    II. crafted with 15 Conduit PLating and 5 Nanites at any work bench
+    III. can hold down left Mouse button to autoswing
 
 
 2 Added Armor
