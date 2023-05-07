@@ -2,4 +2,4 @@
     - find a fix for the code
 
 2. Armor cant use sprite
-    - adapt code
+    - adapt code (hopefully DONE)
