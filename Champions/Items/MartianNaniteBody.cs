@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 namespace Champions
 {
     [AutoloadEquip(EquipType.Body)]
-    public class MartianNaniteHelmet : ModItem
+    public class MartianNaniteBody : ModItem
     {
         public override void SetStaticDefaults()
         {
