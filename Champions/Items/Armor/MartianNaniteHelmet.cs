@@ -2,10 +2,10 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Champions
+namespace Champions.Items.Armor
 {
-    [AutoloadEquip(EquipType.Body)]
-    public class MartianNaniteBody : ModItem
+    [AutoloadEquip(EquipType.Head)]
+    public class MartianNaniteHelmet : ModItem
     {
         public override void SetStaticDefaults()
         {
@@ -21,19 +21,12 @@ namespace Champions
             Item.value = 2000;
         }
         
-		public static void Effects(Player player)
-		{
-			player.meleeCrit += 20;
-			player.noKnockback = true;
-		}
-
-		public static void SetBonus(Player player)
-		{
-			player.setBonus = "Increased defense by 40";
-			player.statDefense += 40;
-			player.statAttack += 100;
-			player.socialShadow = true
-		}
+        public static void Effects(Player player)
+        {
+	        player.lavaImmune=true;
+            player.accMerman=true;
+            player.accWatch=3;
+        }
 
         public override void UpdateEquip(Player player)
         {

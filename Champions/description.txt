@@ -11,7 +11,7 @@ This for now will just be a terraria mods and we will try to figure out how cert
         # uses 10 Martian Conduit Plating, 8 Nanites to build at a mythril anvil
         * immune to Lave
         * can breath under Water
-        * has a clock build in
+        * has a clock build in that displays the minutes
 
     II. Body
         # uses 25 Martian Conduit Plating, 15 Nanites to build at a mythril anvil

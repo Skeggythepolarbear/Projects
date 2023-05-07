@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Champions
+namespace Champions.Items.Armor
 {
     [AutoloadEquip(EquipType.Leg)]
     public class MartianNaniteLeggings : ModItem
