@@ -1,2 +1,5 @@
 1. if sword is used player doesnt turn
     - find a fix for the code
+
+2. Armor cant use sprite
+    - adapt code

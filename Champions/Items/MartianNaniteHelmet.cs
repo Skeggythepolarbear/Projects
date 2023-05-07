@@ -1,5 +1,36 @@
-public static void Effects(Player player) {
-	player.lavaImmune=true;
-    player.accMerman=true;
-    player.accWatch=3;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace Champions
+{
+    [AutoloadEquip(EquipType.Head)]
+    public class MartianNaniteHelmet : ModItem
+    {
+        public override void SetStaticDefaults()
+        {
+            SacrificeTotal = (1);
+        }
+
+        public override void SetDefaults()
+        {
+            Item.width = 32;
+            Item.height = 24;
+            Item.rare = 1;
+            Item.defense = 10;
+            Item.value = 2000;
+        }
+        
+        public static void Effects(Player player)
+        {
+	        player.lavaImmune=true;
+            player.accMerman=true;
+            player.accWatch=3;
+        }
+
+        public override void UpdateEquip(Player player)
+        {
+            player.AddBuff(BuffID.Darkness, 2);
+        }
+    }
 }
