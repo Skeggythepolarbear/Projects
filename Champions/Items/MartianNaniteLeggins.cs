@@ -27,8 +27,6 @@ namespace Champions
 			player.waterWalk=true;
     		player.noFallDmg=true;
 		}
-
-		}
 		
         public override void UpdateEquip(Player player)
         {
