@@ -1,1 +1,25 @@
 This for now will just be a terraria mods and we will try to figure out how certain actions, models and weapon behavioury can be changed through code interactions. :D
+
+1 Added Sword
+
+
+2 Added Armor
+    I. Helmet
+        # uses 10 Martian Conduit Plating, 8 Nanites to build at a mythril anvil
+        * immune to Lave
+        * can breath under Water
+        * has a clock build in
+
+    II. Body
+        # uses 25 Martian Conduit Plating, 15 Nanites to build at a mythril anvil
+        * 20 extra meele crit
+        * no knockback
+        # set bonus +40 defense
+        # Attack stat is +100
+        # added a shadow that follows you around
+
+    III. Leggins
+        # uses 10 Martian Conduit Plating, 8 Nanites to build at a mythril anvil
+        * extra movement speed
+        * can walk on Water
+        * no fall damage
