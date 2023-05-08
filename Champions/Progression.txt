@@ -1,0 +1,11 @@
+Future Plans include:
+- Testing if everyting we have done so far works
+- creating more items of the same set:
+    - Gun
+    - Pickaxe
+-creating a new set
+- add own enemy
+- add own Boss
+- add own Biom
+- add own Dimension
+- create different starting classes that you can choose between
