@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Champions.Items.Weapons
+namespace Champions.Items.Projectile
 {
 	public class MartianNaniteBullet : ModItem
 	{
