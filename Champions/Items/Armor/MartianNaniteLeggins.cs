@@ -16,7 +16,7 @@ namespace Champions.Items.Armor
         {
             Item.width = 32;
             Item.height = 24;
-            Item.rare = 1;
+            Item.rare = 8;
             Item.defense = 10;
             Item.value = 2000;
         }
@@ -24,8 +24,9 @@ namespace Champions.Items.Armor
  		public static void Effects(Player player)
 		{
 			player.moveSpeed += 12;
-			player.waterWalk=true;
-    		player.noFallDmg=true;
+			player.waterWalk = true;
+    		player.noFallDmg = true;
+            player.chatText = "Equipped Martian Nanite Leggins... time to style on enemies";
 		}
 		
         public override void UpdateEquip(Player player)

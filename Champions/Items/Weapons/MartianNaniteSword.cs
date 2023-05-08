@@ -2,13 +2,13 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Champions.Items
+namespace Champions.Items.Weapons
 {
 	public class MartianNaniteSword : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			// DisplayName.SetDefault("BasicSword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+			DisplayName.SetDefault("Style Sword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
 			Tooltip.SetDefault("15 Conduit PLating and 5 Nanites are required to destroy your enemies with style.");
 		}
 
@@ -23,7 +23,7 @@ namespace Champions.Items
 			Item.useStyle = 1;
 			Item.knockBack = 6;
 			Item.value = 10000;
-			Item.rare = 2;
+			Item.rare = 8;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;
 		}

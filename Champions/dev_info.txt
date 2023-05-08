@@ -1,0 +1,78 @@
+added own GlobalPlayer
+
+in GlobalPlayer if you want to use vectors make sure to add "using Microsoft.Xna.Framework;"
+
+"using Champions;" to use the GlobalPlayer
+
+in the GlobalPlayer you can create custom variable and access that variable anywhere in the mod.
+
+access with 
+"player.GetModPlayer<GlobalPlayer>()."custom variable here" = bool, int, string"
+
+
+"
+namespace Champions
+{
+	public class GlobalPlayer : ModPlayer
+	{
+        public override void PostUpdate()
+        {
+            Dust.NewDust(player.position, player.width, player.height, 17, 0f, 0f, 0, Colors.RarityYellow, 1f);
+            //what this does is it creates a new dust type usable by swords, armor or accessories. PostUpdate updates it every frame
+        }
+	}
+}
+"
+
+lets tie it to sth and activate it
+
+"
+namespace Champions
+{
+	public class GlobalPlayer : ModPlayer
+	{
+        public override void PostUpdate()
+        {
+            if (player.velocity.X != 0 && MartianNaniteAccessory) Dust.NewDust(player.position, player.width, player.height, 17, 0f, 0f, 0, Colors.RarityYellow, 1f);
+            //now if the player is moving on the X axis and has the Accessory eqquiped it should give off this dust
+        }
+
+        public void ResetEffect()
+        {
+            MartianNaniteAccessory = false;
+        }
+	}
+}
+"
+
+now lets create a cool effect and make everything a bit more readable
+
+"
+namespace Champions
+{
+	public class GlobalPlayer : ModPlayer
+	{
+        public override void PostUpdate()
+        {
+            if (player.velocity.X != 0 && MartianNaniteAccessory)
+            {
+                Dust.NewDust(player.position, player.width, player.height, 17, 0f, 0f, 0, Colors.RarityYellow, 1f);
+                //you can change the type of dust by editing the "17" "https://terraria.wiki.gg/wiki/Dust_IDs"
+                Main.dust[dust].noGravity = true;
+                Main.dust[dust].velocity *= 0;
+                //this makes it so the dust trail stays where it is (cool armor effect idk about accessories tho)
+                // the Main.dust[dust] thing just adds effects to your dust which you can reference and include everywhere
+            } 
+        }
+
+        public void ResetEffect()
+        {
+            MartianNaniteAccessory = false;
+        }
+	}
+}
+"
+
+
+
+if help is needed look at "https://youtu.be/4jkW0lGpgao"

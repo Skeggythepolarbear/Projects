@@ -1,12 +1,12 @@
 This for now will just be a terraria mods and we will try to figure out how certain actions, models and weapon behavioury can be changed through code interactions. :D
 
-1 Added Sword
-    I. 250 meele damage
-    II. crafted with 15 Conduit PLating and 5 Nanites at any work bench
-    III. can hold down left Mouse button to autoswing
+1. Added Sword
+    # crafted with 15 Conduit PLating and 5 Nanites at any work bench
+    * 250 meele damage
+    * can hold down left Mouse button to autoswing
 
 
-2 Added Armor
+2. Added Armor
     I. Helmet
         # uses 10 Martian Conduit Plating, 8 Nanites to build at a mythril anvil
         * immune to Lave
@@ -26,3 +26,20 @@ This for now will just be a terraria mods and we will try to figure out how cert
         * extra movement speed
         * can walk on Water
         * no fall damage
+
+3. Added Accessory
+    * displays :
+        - Depth
+        - Compass
+        - Time
+    * infinite jumps under water
+    * infinite breath under water
+    * is immune to lava
+    * 100% chance of crit damage (aka double damage)
+    * no fall damage
+    * adds 500 damage to items
+    * doubles melee speed
+    * way faster
+    * decreases healing cooldown by 25% (philosophers stone)
+    * renames player to "bot"
+    * can kill guide

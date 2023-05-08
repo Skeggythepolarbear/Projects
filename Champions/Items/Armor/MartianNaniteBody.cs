@@ -16,7 +16,7 @@ namespace Champions.Items.Armor
         {
             Item.width = 32;
             Item.height = 24;
-            Item.rare = 1;
+            Item.rare = 8;
             Item.defense = 10;
             Item.value = 2000;
         }
@@ -33,6 +33,7 @@ namespace Champions.Items.Armor
 			player.statDefense += 40;
 			player.statAttack += 100;
 			player.socialShadow = true
+            player.chatText = "Equipped Martian Nanite Chestplate... time to style on enemies";
 		}
 
         public override void UpdateEquip(Player player)
