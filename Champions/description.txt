@@ -28,7 +28,7 @@ This for now will just be a terraria mods and we will try to figure out how cert
         * no fall damage
 
 3. Added Accessory
-    * displays :
+    * displays:
         - Depth
         - Compass
         - Time
@@ -43,3 +43,9 @@ This for now will just be a terraria mods and we will try to figure out how cert
     * decreases healing cooldown by 25% (philosophers stone)
     * renames player to "bot"
     * can kill guide
+
+4. Added Pistol (with bullet and projectile class)
+    # uses 30 Martian Conduit Plating, 20 Nanites to build at a anvil
+    * left click 800 damage (fast)
+    * right click 30000 damage (uses other bullets and they hopefully wont be consumed (slow))
+    * Bullets bounce 5 times
