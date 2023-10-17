@@ -18,7 +18,7 @@ namespace Champions.Enemies
         {
             NPC.width = 150;
             NPC.height = 100;
-            NPC.damage = 300;
+            NPC.damage = 30000;
             NPC.defense = 1;
             NPC.lifeMax = 100;
             NPC.value = 50f;

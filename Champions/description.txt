@@ -49,3 +49,8 @@ This for now will just be a terraria mods and we will try to figure out how cert
     * left click 800 damage (fast)
     * right click 30000 damage (uses other bullets and they hopefully wont be consumed (slow))
     * Bullets bounce 5 times
+
+5. Added Enemie
+    * deals a lot of damage (30000) and is hopefully oneshot to anyone that comes into contact with it.
+    * is another type of slime
+    * name is "Wooden Slime"

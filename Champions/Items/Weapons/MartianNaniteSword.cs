@@ -8,8 +8,8 @@ namespace Champions.Items.Weapons
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("Style Sword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
-			Tooltip.SetDefault("15 Conduit PLating and 5 Nanites are required to destroy your enemies with style.");
+			DisplayName.SetDefault("Drip Sword"); // By default, capitalization in classnames will add spaces to the display name. You can customize the display name here by uncommenting this line.
+			Tooltip.SetDefault("15 Conduit Plating and 5 Nanites are required to destroy your enemies with style.");
 		}
 
 		public override void SetDefaults()
